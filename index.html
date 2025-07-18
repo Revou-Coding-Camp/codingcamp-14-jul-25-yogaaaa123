@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satria Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">Satria</div>
+      <ul class="nav-links">
+        <li><a href="#about">Our Profil</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </header>
+
+  <section class="hero section">
+    <div class="content">
+      <h1><span id="typed-text"></span></h1>
+      <p id="sub-text"></p>
+      <a href="#projects" class="btn">Lihat Karyaku</a>
+    </div>
+  </section>
+
+<section id="about" class="section">
+  <h2>Our Profile</h2>
+
+  <!-- Tempat teks yang akan diketik -->
+  <div id="about-typing" class="about-content"></div>
+
+  <!-- Tempat skill cards yang akan muncul setelah teks selesai diketik -->
+  <div class="skills-container" id="skill-cards"></div>
+</section>
+
+
+  <section id="projects" class="projects-section">
+    <h2>My Projects</h2>
+
+    <!-- Baris Atas - ke kanan -->
+    <div class="scroll-container scroll-right">
+      <div class="scroll-track">
+        <div class="card">@8thLegion<br><strong>Great Portfolio man 🚀🚀🚀...Wish you luck</strong></div>
+        <div class="card">@aladearchives<br><strong>Whoaaaaa your site is mad</strong></div>
+        <div class="card">@lauragift_<br><strong>Your projects are amazing! 👍 💪</strong></div>
+        <div class="card">@lolyparty<br><strong>Man your portfolio is 🔥</strong></div>
+        <div class="card">@ruks_ahwin<br><strong>Really impressed 😍</strong></div>
+        <!-- Duplikat -->
+        <div class="card">@8thLegion<br><strong>Great Portfolio man 🚀🚀🚀...Wish you luck</strong></div>
+        <div class="card">@aladearchives<br><strong>Whoaaaaa your site is mad</strong></div>
+        <div class="card">@lauragift_<br><strong>Your projects are amazing! 👍 💪</strong></div>
+        <div class="card">@lolyparty<br><strong>Man your portfolio is 🔥</strong></div>
+        <div class="card">@ruks_ahwin<br><strong>Really impressed 😍</strong></div>
+      </div>
+    </div>
+
+    <!-- Baris Bawah - ke kiri -->
+    <div class="scroll-container scroll-left">
+      <div class="scroll-track">
+        <div class="card">@techguru<br><strong>Very responsive layout 👏</strong></div>
+        <div class="card">@frontenddev<br><strong>Love the animations 💫</strong></div>
+        <div class="card">@satriaweb<br><strong>Top-notch UI 💻</strong></div>
+        <div class="card">@nextjsfan<br><strong>This deserves a star ⭐</strong></div>
+        <!-- Duplikat -->
+        <div class="card">@techguru<br><strong>Very responsive layout 👏</strong></div>
+        <div class="card">@frontenddev<br><strong>Love the animations 💫</strong></div>
+        <div class="card">@satriaweb<br><strong>Top-notch UI 💻</strong></div>
+        <div class="card">@nextjsfan<br><strong>This deserves a star ⭐</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Cread anonymus
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
